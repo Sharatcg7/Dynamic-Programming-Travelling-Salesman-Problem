@@ -1,0 +1,12 @@
+name: TPS
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.6
+  - tqdm
+  - numpy=1.14.2
+  - pip:
+    - networkx
+    - matplotlib
